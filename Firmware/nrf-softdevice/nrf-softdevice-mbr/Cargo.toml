@@ -1,0 +1,18 @@
+[package]
+name = "nrf-softdevice-mbr"
+version = "0.2.0"
+description = "Low-level bindings for the MBR included in all Nordic nRF SoftDevices"
+authors = ["Dario Nieuwenhuis <dirbaio@dirbaio.net>"]
+repository = "https://github.com/embassy-rs/nrf-softdevice"
+categories = ["embedded", "hardware-support", "no-std"]
+keywords = ["arm", "cortex-m", "nrf52", "nrf-softdevice"]
+license-file = "LICENSE-NORDIC"
+edition = "2021"
+
+[package.metadata.docs.rs]
+targets = ["thumbv7em-none-eabi"]
+
+[package.metadata.embassy_docs]
+src_base = "https://github.com/embassy-rs/nrf-softdevice/blob/nrf-softdevice-mbr-v$VERSION/nrf-softdevice-mbr/src/"
+src_base_git = "https://github.com/embassy-rs/nrf-softdevice/blob/$COMMIT/nrf-softdevice-mbr/src/"
+target = "thumbv7em-none-eabi"

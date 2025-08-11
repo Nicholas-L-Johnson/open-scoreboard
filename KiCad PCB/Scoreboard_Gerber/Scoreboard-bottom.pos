@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+### Footprint positions - created on 2025-03-23T00:35:49-0400 ###
+### Printed by KiCad version 8.0.7
+=======
+### Footprint positions - created on 2024-12-18T00:11:17-0500 ###
+### Printed by KiCad version 8.0.2
+>>>>>>> 765677de5d3a4e6ade9669ce28fae239a28a82a0
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val            Package                         PosX       PosY       Rot  Side
+AE1       Antenna_Loop   HM-NFC-Class3-Antenna       159.7750  -133.6750    0.0000  bottom
+J1        TC2050-IDC-NL  TAG-CONNECT_TC2050-IDC-NL    93.3050  -146.3600   90.0000  bottom
+## End

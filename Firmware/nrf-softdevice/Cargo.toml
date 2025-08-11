@@ -1,0 +1,32 @@
+[workspace]
+resolver = "2"
+members = [
+    "nrf-softdevice",
+    "nrf-softdevice-mbr",
+    "nrf-softdevice-s112",
+    "nrf-softdevice-s113",
+    "nrf-softdevice-s122",
+    "nrf-softdevice-s132",
+    "nrf-softdevice-s140",
+    "nrf-softdevice-macro",
+
+    "examples",
+]
+
+exclude = ["nrf-softdevice-gen"]
+
+[profile.release]
+codegen-units = 1
+debug = 2
+debug-assertions = false
+incremental = false
+lto = "fat"
+opt-level = 's'
+overflow-checks = false
+
+[profile.release.build-override]
+codegen-units = 8
+debug = false
+debug-assertions = false
+opt-level = 0
+overflow-checks = false

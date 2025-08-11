@@ -1,0 +1,4 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"AE1","Antenna_Loop","HM-NFC-Class3-Antenna",159.775000,-133.675000,0.000000,bottom
+"BT1","LiPo_Plug","JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal",199.975000,-158.125000,90.000000,bottom
+"J1","TC2050-IDC-NL","TAG-CONNECT_TC2050-IDC-NL",93.305000,-146.360000,90.000000,bottom

@@ -1,0 +1,10058 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4f609aa6-fdf6-4cf0-b840-42c33b8b4b75")
+	(paper "B")
+	(lib_symbols
+		(symbol "User_Symbols:LED_RGAB"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_RGAB"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+				(at -2.54 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+				(at -2.54 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED, red/green/anode/blue"
+				(at -2.54 18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+				(at -2.54 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "LCSC"
+				(at 2.54 14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" ".0081"
+				(at 0.254 12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "NH-B2020RGBA-HF"
+				(at 3.048 17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "LED RGAB 2020"
+				(at 0.762 14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED RGB diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_RGAB_0_0"
+				(text "R"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED_RGAB_0_1"
+				(rectangle
+					(start -2.794 8.382)
+					(end 2.794 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.81)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "LED_RGAB_1_0"
+				(text "B"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED_RGAB_1_1"
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "RK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 356.87 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03fbfb46-40b7-46a2-8d42-76e5a1401278")
+	)
+	(junction
+		(at 232.41 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06e6e834-8f58-4aef-ae92-1d4e1263f000")
+	)
+	(junction
+		(at 243.84 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "079e8e8c-88ce-4730-b12e-07eaade5feaa")
+	)
+	(junction
+		(at 186.69 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0998c290-1628-4a2b-a9f4-90c527fcfabd")
+	)
+	(junction
+		(at 292.1 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c4d99ac-cf5f-4350-97f8-44df63ca295c")
+	)
+	(junction
+		(at 237.49 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c8b0372-2bd9-418d-a36b-60bb7d610535")
+	)
+	(junction
+		(at 237.49 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ccea179-1cfe-4bca-b0e5-b5abf34a3a74")
+	)
+	(junction
+		(at 284.48 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d7c29b9-7d4f-40e4-9b22-3544742115e1")
+	)
+	(junction
+		(at 242.57 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1039a864-33e8-45bf-bd66-b9442289b2a2")
+	)
+	(junction
+		(at 284.48 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1686b3d0-2d29-4d3b-a779-2717042a2fb1")
+	)
+	(junction
+		(at 288.29 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "182fe7db-0754-4d98-9c1f-fef089b37849")
+	)
+	(junction
+		(at 248.92 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18ff8db5-6fc3-4b01-9246-1fe43630a973")
+	)
+	(junction
+		(at 288.29 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19b38e8c-bdf8-4e0f-9116-994d5ecc3e92")
+	)
+	(junction
+		(at 238.76 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19c576ec-ce40-4ea8-a53c-6e9548829ab8")
+	)
+	(junction
+		(at 260.35 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1af1dd82-aa2b-4807-a72b-caaa2ec43fbe")
+	)
+	(junction
+		(at 273.05 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e7ceddb-1442-4bc5-8883-432e6fe63203")
+	)
+	(junction
+		(at 232.41 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e81cde9-aba1-4b78-9f8e-54fecfb2f731")
+	)
+	(junction
+		(at 284.48 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f841cf7-c8c8-40eb-b2fc-21aff3c6db9c")
+	)
+	(junction
+		(at 237.49 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f883d42-b5a2-418f-982c-09e1ea020050")
+	)
+	(junction
+		(at 179.07 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fe37e75-1452-48a0-920c-bccaa21334e4")
+	)
+	(junction
+		(at 182.88 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20468249-7a04-418b-a4d0-b0fe1f9183b7")
+	)
+	(junction
+		(at 288.29 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24675388-544c-4937-869d-80bf3b679fde")
+	)
+	(junction
+		(at 186.69 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "248a8aa5-c37f-4807-9bea-17456608715d")
+	)
+	(junction
+		(at 167.64 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25f8adc1-ff9b-4006-93f2-6d2b4b44a719")
+	)
+	(junction
+		(at 182.88 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "298d17f2-6621-415f-ac48-4fd2bb9124df")
+	)
+	(junction
+		(at 242.57 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ad4334e-7124-4bb9-a9bd-7fb9b46d09cd")
+	)
+	(junction
+		(at 284.48 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e8ba313-10d9-42a3-8c80-1a37182ae5f3")
+	)
+	(junction
+		(at 242.57 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30831359-abdb-4088-85c3-1c8c18a75b54")
+	)
+	(junction
+		(at 224.79 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33191462-df94-4cc4-b96e-90f4bfd98021")
+	)
+	(junction
+		(at 255.27 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35916216-77fa-42c4-b9a8-e665a096b35c")
+	)
+	(junction
+		(at 238.76 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "398ed2c0-7d5f-488e-ac60-2e7a527a8a24")
+	)
+	(junction
+		(at 182.88 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cd587fa-edea-4748-bc5b-df2457817aff")
+	)
+	(junction
+		(at 247.65 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f4f9f10-facc-4ae8-85b1-ba75b4063da7")
+	)
+	(junction
+		(at 250.19 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42356248-fdcd-4219-b6d0-a120247c0268")
+	)
+	(junction
+		(at 255.27 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44463ef8-52fe-47b5-ae9f-94a4113c14c3")
+	)
+	(junction
+		(at 243.84 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47c05bda-3d1e-4d12-b27e-ac61a5f88b1e")
+	)
+	(junction
+		(at 255.27 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4aad6a62-a6b2-4103-a95e-54463fcc5c3e")
+	)
+	(junction
+		(at 288.29 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b270ea0-d31a-4bb9-8477-0f06f5c6f39e")
+	)
+	(junction
+		(at 292.1 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f098ca3-a53e-4e0d-9926-e1b5219c01ff")
+	)
+	(junction
+		(at 186.69 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ff3b8a4-9fdd-4965-a415-521924a8c2f8")
+	)
+	(junction
+		(at 361.95 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "502abda2-097f-40de-932a-373ed8b598d7")
+	)
+	(junction
+		(at 179.07 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51499487-6e94-4c89-a825-3fd6dedc63fa")
+	)
+	(junction
+		(at 243.84 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5180d752-74cd-4119-99c9-90598e7438e1")
+	)
+	(junction
+		(at 273.05 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51a1ddd4-de50-4ffe-9151-c03029eb036d")
+	)
+	(junction
+		(at 198.12 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "520c0935-29ba-4b31-8af7-7060d8b918d9")
+	)
+	(junction
+		(at 214.63 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55a7ec02-6bd3-4fd4-a802-324da486f998")
+	)
+	(junction
+		(at 250.19 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "563a63fe-009b-4efb-af2c-ba0af986be3a")
+	)
+	(junction
+		(at 256.54 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56adc524-b64a-4fd6-a6ef-27e44caa7711")
+	)
+	(junction
+		(at 284.48 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a00dbcf-9039-47fe-b18e-d5d56ffebb7f")
+	)
+	(junction
+		(at 303.53 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ac26cf8-5737-471a-aaf6-619fe8488bcc")
+	)
+	(junction
+		(at 198.12 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c67305d-68f8-4184-a107-dd31ac0cb422")
+	)
+	(junction
+		(at 288.29 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c90af0e-61e9-41b4-8d2a-6f5c08c2a783")
+	)
+	(junction
+		(at 242.57 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e1d8f60-328c-4ccc-9fd9-9ffb88d1eee4")
+	)
+	(junction
+		(at 179.07 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "609845c3-dc70-47d4-8efa-27d99159bab9")
+	)
+	(junction
+		(at 288.29 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64156895-81ed-43f3-9b78-ffb12aa65d25")
+	)
+	(junction
+		(at 261.62 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65b7099d-f59d-467f-bd80-770d33f870fc")
+	)
+	(junction
+		(at 292.1 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65f49df0-0baf-4208-bc14-26e0284244d0")
+	)
+	(junction
+		(at 179.07 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6836b4ba-244c-44a7-9339-c1ab21d5beb7")
+	)
+	(junction
+		(at 292.1 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "686743a1-cfa8-4cd8-b427-db612a187c25")
+	)
+	(junction
+		(at 182.88 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6934e128-da9b-49e5-b2bb-d206a971d7cb")
+	)
+	(junction
+		(at 261.62 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6adde60c-5e8f-4717-b5f7-91db810571fa")
+	)
+	(junction
+		(at 288.29 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b52a6b5-bd3a-454a-bc7b-4d34b9e286a2")
+	)
+	(junction
+		(at 238.76 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b9e70eb-3868-46b4-813f-128e72f75a41")
+	)
+	(junction
+		(at 260.35 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bb379ce-b08c-4bd0-8b79-9867bb4ec3ef")
+	)
+	(junction
+		(at 242.57 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f9bdfc5-ca5e-4747-91e1-d49186cf869f")
+	)
+	(junction
+		(at 182.88 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70ff48e3-6ad0-47fe-9c0a-800fb975278c")
+	)
+	(junction
+		(at 182.88 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "748c6ac6-ac4d-4135-a992-3df61667ada5")
+	)
+	(junction
+		(at 237.49 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74a8ca59-60a5-4173-bccd-68064faf11ae")
+	)
+	(junction
+		(at 284.48 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d3cc301-1f38-45bf-a3c3-7868bf18f410")
+	)
+	(junction
+		(at 182.88 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fdc2808-20c9-4655-9270-cf54c8f815cc")
+	)
+	(junction
+		(at 273.05 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81495317-cebf-44e7-a846-796e487d4b4b")
+	)
+	(junction
+		(at 179.07 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "824cc74d-fc42-4aab-9e61-90e261ea1a58")
+	)
+	(junction
+		(at 182.88 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "851339f3-a673-4605-8577-be7cc32cebd4")
+	)
+	(junction
+		(at 214.63 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88aaac1b-a11c-48bf-8377-2e83c084f2da")
+	)
+	(junction
+		(at 179.07 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a791d51-fa09-45eb-ba9c-5ac02d7b44b4")
+	)
+	(junction
+		(at 186.69 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a90e8bd-b4da-4bdd-b664-655ab50e6b77")
+	)
+	(junction
+		(at 303.53 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b94b0fd-ac2f-4e2c-b920-f38d8d9dbbd2")
+	)
+	(junction
+		(at 260.35 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e97e600-08de-4675-b3d4-add952b70ed9")
+	)
+	(junction
+		(at 251.46 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8efdc434-7476-480e-8843-9d78e8f832d8")
+	)
+	(junction
+		(at 273.05 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f90f342-7126-4151-bfb9-d56dfe194448")
+	)
+	(junction
+		(at 284.48 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9268b35b-8e82-48c1-b7d6-136050c43571")
+	)
+	(junction
+		(at 237.49 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "931167f2-179b-4901-bec1-6d51b2abc954")
+	)
+	(junction
+		(at 186.69 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "939c02f5-13fb-46be-8ccf-f27c96254e17")
+	)
+	(junction
+		(at 341.63 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ef6475d-d655-4b28-adfc-07e10e79d5c2")
+	)
+	(junction
+		(at 292.1 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a060f7bc-97f1-4aa2-a294-18cfbcf642b3")
+	)
+	(junction
+		(at 179.07 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6d97c45-f489-4f88-b0a7-563085b8f774")
+	)
+	(junction
+		(at 167.64 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7f1dcad-efd5-49a2-9067-2a9fa2ae6462")
+	)
+	(junction
+		(at 260.35 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae6517d6-4c76-413c-b73b-77c07acf1f38")
+	)
+	(junction
+		(at 247.65 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afa00acb-d015-4b22-959a-40669be0637f")
+	)
+	(junction
+		(at 179.07 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b01adbef-2468-4165-831c-aa0d75aa75b8")
+	)
+	(junction
+		(at 182.88 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b422d5f5-60ea-4536-ab1b-34867a670cc0")
+	)
+	(junction
+		(at 288.29 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5bb371d-bd36-4534-82f9-221142cb4787")
+	)
+	(junction
+		(at 284.48 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba402c33-c66d-424c-9266-ee905afecf97")
+	)
+	(junction
+		(at 167.64 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c11b2444-084b-455a-a2ed-719df07de9dd")
+	)
+	(junction
+		(at 237.49 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c348e8b5-dd27-4c46-be86-70cd92976323")
+	)
+	(junction
+		(at 182.88 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c504f4ff-d318-44cf-85d5-493002d90d59")
+	)
+	(junction
+		(at 265.43 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca8d2d91-3382-4009-b0c7-19874a07ede2")
+	)
+	(junction
+		(at 215.9 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca9c915c-03ee-4447-9cd3-64101ed5b116")
+	)
+	(junction
+		(at 265.43 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc0c20e4-a326-4d4e-afe4-47d2f3e69846")
+	)
+	(junction
+		(at 224.79 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8ee3e66-665c-43d3-9a2c-264e2988aab6")
+	)
+	(junction
+		(at 292.1 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e01c22fe-61cf-47f9-a853-5174027ff4be")
+	)
+	(junction
+		(at 167.64 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0b3c1e6-eccc-4a0a-b56d-7245da003d39")
+	)
+	(junction
+		(at 186.69 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1a3483b-77b8-4ff0-bda9-71fe227a3d1a")
+	)
+	(junction
+		(at 367.03 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e99e624b-d647-42df-9de5-c9c8871a706f")
+	)
+	(junction
+		(at 186.69 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea7ff1cb-1fcb-4f93-b1fe-78992bd8fd43")
+	)
+	(junction
+		(at 242.57 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea8d6b6f-66c6-4479-83d6-76449e1bfe2c")
+	)
+	(junction
+		(at 288.29 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebe930f0-c34b-4f5a-b1f1-d95b9929e2a2")
+	)
+	(junction
+		(at 233.68 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efb86aaf-512f-4399-9aac-beab8b40faf7")
+	)
+	(junction
+		(at 288.29 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f21193ff-b409-4432-8b23-44d09b8e0577")
+	)
+	(junction
+		(at 226.06 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f22d13ae-3093-4420-bd80-697aeaabf7e1")
+	)
+	(junction
+		(at 256.54 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4061078-0a7f-4671-8885-4dfbab1f2c40")
+	)
+	(junction
+		(at 266.7 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f420a8c1-21b9-46a6-9341-9b2a2af3c514")
+	)
+	(junction
+		(at 186.69 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc70ee68-0b9e-41b1-ab2b-2ea4ecb947ff")
+	)
+	(junction
+		(at 255.27 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe3c10ce-42b8-47e2-a3d4-76fc2a2c2251")
+	)
+	(junction
+		(at 292.1 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe54325d-2f38-4910-b29f-bf5135f92732")
+	)
+	(junction
+		(at 292.1 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffa01df5-ca8d-454f-92da-9d182ac59733")
+	)
+	(wire
+		(pts
+			(xy 273.05 160.02) (xy 288.29 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0104bdca-de32-4866-a4d9-586570e4c569")
+	)
+	(wire
+		(pts
+			(xy 273.05 170.18) (xy 273.05 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0133fe44-4886-45c5-bb61-e2aa1069c11e")
+	)
+	(wire
+		(pts
+			(xy 288.29 100.33) (xy 288.29 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0162bffd-c89d-4b5d-9edb-4ab0c9dd1221")
+	)
+	(wire
+		(pts
+			(xy 237.49 224.79) (xy 237.49 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e371a5-49b1-4c9c-8dd2-b097f721ddbf")
+	)
+	(wire
+		(pts
+			(xy 167.64 74.93) (xy 182.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f4e881-3f70-458e-9594-a55d897ecf94")
+	)
+	(wire
+		(pts
+			(xy 265.43 52.07) (xy 265.43 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026ea7e2-37c3-4ce3-8aa7-5a16d48c356b")
+	)
+	(wire
+		(pts
+			(xy 177.8 102.87) (xy 182.88 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03dbc53a-2a00-4f8d-903c-12530d2536a6")
+	)
+	(wire
+		(pts
+			(xy 353.06 95.25) (xy 356.87 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03f5f412-dd73-48c7-a37f-d5dda4aadfd9")
+	)
+	(wire
+		(pts
+			(xy 260.35 219.71) (xy 260.35 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0472b322-6d00-4c91-ba2c-6fab5eeb4be6")
+	)
+	(wire
+		(pts
+			(xy 260.35 52.07) (xy 260.35 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05953c71-39a9-490b-bd85-7088d88a404d")
+	)
+	(wire
+		(pts
+			(xy 177.8 120.65) (xy 182.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05acb335-3b33-4ead-bedb-730b0c000fd5")
+	)
+	(wire
+		(pts
+			(xy 336.55 127) (xy 341.63 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d4a9b0-84a3-49ea-bb05-e8992588187c")
+	)
+	(wire
+		(pts
+			(xy 250.19 50.8) (xy 255.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a27032-8b53-4903-850b-4348fac8cd55")
+	)
+	(wire
+		(pts
+			(xy 288.29 158.75) (xy 288.29 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ce047e-52bb-42f1-ae5b-14a88621016a")
+	)
+	(wire
+		(pts
+			(xy 237.49 228.6) (xy 250.19 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa8edf6-72d0-4c8d-9bdf-016e6bd106c0")
+	)
+	(wire
+		(pts
+			(xy 265.43 220.98) (xy 266.7 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab25417-9900-4abd-9bf4-6845b195b853")
+	)
+	(wire
+		(pts
+			(xy 248.92 140.97) (xy 248.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0f9a14-c3fc-44be-bcbf-6eee5f3f61bf")
+	)
+	(wire
+		(pts
+			(xy 273.05 72.39) (xy 288.29 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c00dc90-9b0a-4560-a5e8-0f7c5450cb70")
+	)
+	(wire
+		(pts
+			(xy 182.88 115.57) (xy 187.96 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c876046-f3a2-4e3a-abfb-96479b2b94bd")
+	)
+	(wire
+		(pts
+			(xy 220.98 140.97) (xy 220.98 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c995068-244c-44c8-84ba-406b96e56efd")
+	)
+	(wire
+		(pts
+			(xy 353.06 160.02) (xy 361.95 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de2b6d8-d7d9-4e6b-bc90-e3c7bdbe1b17")
+	)
+	(wire
+		(pts
+			(xy 177.8 204.47) (xy 179.07 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e97f013-696b-4e6a-9d50-cab36b91d741")
+	)
+	(wire
+		(pts
+			(xy 265.43 43.18) (xy 266.7 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1006776f-8b64-444e-b209-7f7ed30de480")
+	)
+	(wire
+		(pts
+			(xy 273.05 187.96) (xy 273.05 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10427786-22cc-49d8-86be-40cef692b2c6")
+	)
+	(wire
+		(pts
+			(xy 284.48 195.58) (xy 293.37 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10facbe7-0a78-451f-9d13-b8384944f7c2")
+	)
+	(wire
+		(pts
+			(xy 214.63 224.79) (xy 214.63 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "137800ad-3a1a-4bd9-8a00-09bae863c515")
+	)
+	(wire
+		(pts
+			(xy 215.9 151.13) (xy 226.06 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e04f29-1ec6-44fb-b30c-82dc0a3c5966")
+	)
+	(wire
+		(pts
+			(xy 242.57 43.18) (xy 247.65 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15da6098-edce-4b9d-b863-68dcf0e54630")
+	)
+	(wire
+		(pts
+			(xy 284.48 177.8) (xy 293.37 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "168523e1-2f81-4281-b4da-1f295bd927a0")
+	)
+	(wire
+		(pts
+			(xy 356.87 165.1) (xy 356.87 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c57d3d-0a0d-4be0-9553-d226f2092b8b")
+	)
+	(wire
+		(pts
+			(xy 214.63 62.23) (xy 214.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17807aa7-b58c-4540-baf8-7dc8999fd539")
+	)
+	(wire
+		(pts
+			(xy 283.21 100.33) (xy 288.29 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17aa8861-5899-4471-9a62-ba23d14d958a")
+	)
+	(wire
+		(pts
+			(xy 179.07 80.01) (xy 179.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17af801d-2229-4547-9f8d-59d7a933f674")
+	)
+	(wire
+		(pts
+			(xy 283.21 170.18) (xy 288.29 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c320c60-4859-4346-bec2-e8b7460a3c28")
+	)
+	(wire
+		(pts
+			(xy 250.19 228.6) (xy 255.27 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c35ea64-2a6f-4ef4-bbdf-e10b442184d9")
+	)
+	(wire
+		(pts
+			(xy 292.1 193.04) (xy 292.1 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d313ef5-58f4-4546-abc3-34ab13cfdfc2")
+	)
+	(wire
+		(pts
+			(xy 260.35 229.87) (xy 260.35 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8fa48b-1b01-4f29-a41c-3876b53856cc")
+	)
+	(wire
+		(pts
+			(xy 260.35 41.91) (xy 260.35 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e733668-0d1f-4ae0-b6b5-cd65b3630731")
+	)
+	(wire
+		(pts
+			(xy 182.88 97.79) (xy 182.88 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3ab1ca-3c4b-410f-ad88-b514627c9b0f")
+	)
+	(wire
+		(pts
+			(xy 261.62 130.81) (xy 261.62 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ba8215-1e60-4aeb-9682-01b2fd10cc41")
+	)
+	(wire
+		(pts
+			(xy 288.29 182.88) (xy 288.29 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231398b8-ba1a-471b-bcce-2c75e69a86e1")
+	)
+	(wire
+		(pts
+			(xy 167.64 163.83) (xy 167.64 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242565f6-066f-47d9-ba2f-5114f9756a7d")
+	)
+	(wire
+		(pts
+			(xy 288.29 95.25) (xy 293.37 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25030f00-0ac1-4aff-8d46-426170d4bbac")
+	)
+	(wire
+		(pts
+			(xy 256.54 135.89) (xy 261.62 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25456f13-791b-4936-82d0-8068db8eb630")
+	)
+	(wire
+		(pts
+			(xy 238.76 135.89) (xy 238.76 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28cc1409-25bc-4496-82a5-39df95a6d83e")
+	)
+	(wire
+		(pts
+			(xy 247.65 220.98) (xy 260.35 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29211521-91ca-4171-9eb9-8a0fc9f2c9ce")
+	)
+	(wire
+		(pts
+			(xy 179.07 92.71) (xy 179.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a60625a-437d-4f16-9527-e6cb6356a329")
+	)
+	(wire
+		(pts
+			(xy 243.84 135.89) (xy 256.54 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b081d54-9618-47c5-92bb-236a0774f905")
+	)
+	(wire
+		(pts
+			(xy 288.29 113.03) (xy 293.37 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d86efcc-1745-43dc-a81a-e1146888ff56")
+	)
+	(wire
+		(pts
+			(xy 293.37 187.96) (xy 292.1 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ebadf48-ac6b-4233-ab04-299f288b79ef")
+	)
+	(wire
+		(pts
+			(xy 182.88 186.69) (xy 187.96 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3208015b-1048-4474-bbd6-ad36ba12ea04")
+	)
+	(wire
+		(pts
+			(xy 186.69 214.63) (xy 186.69 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32aa15e1-b6ac-4847-a308-8277c24d2a77")
+	)
+	(wire
+		(pts
+			(xy 265.43 229.87) (xy 265.43 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3324f911-860c-4f71-b572-bce6d2f583cd")
+	)
+	(wire
+		(pts
+			(xy 232.41 50.8) (xy 237.49 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "333618c9-3425-405f-97bb-950233d55048")
+	)
+	(wire
+		(pts
+			(xy 179.07 92.71) (xy 187.96 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "334a15d3-9da7-46c1-b75a-4474bfdd26f8")
+	)
+	(wire
+		(pts
+			(xy 177.8 186.69) (xy 179.07 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3362dec9-f512-426a-a372-3be076882bb3")
+	)
+	(wire
+		(pts
+			(xy 292.1 205.74) (xy 292.1 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b1e505-c24a-4763-a5e8-afc85d829904")
+	)
+	(wire
+		(pts
+			(xy 284.48 107.95) (xy 284.48 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383d2b76-16ae-49e4-8c3d-5fdf02b4ff92")
+	)
+	(wire
+		(pts
+			(xy 186.69 125.73) (xy 186.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3884157c-11a9-42de-94cd-27e49b744c94")
+	)
+	(wire
+		(pts
+			(xy 303.53 160.02) (xy 303.53 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ec8b69-1287-41fb-857d-88bb6691e337")
+	)
+	(wire
+		(pts
+			(xy 243.84 130.81) (xy 243.84 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2d1674-32f4-4d90-a004-e38761f95eed")
+	)
+	(wire
+		(pts
+			(xy 219.71 50.8) (xy 232.41 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c420cfa-c8db-4d57-a98b-87a9e16958aa")
+	)
+	(wire
+		(pts
+			(xy 198.12 186.69) (xy 198.12 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cddfbf4-d392-4a97-adb7-bd5889a6a039")
+	)
+	(wire
+		(pts
+			(xy 224.79 224.79) (xy 237.49 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d716a47-1f1f-4cc1-9b8d-8e2c8f4223b3")
+	)
+	(wire
+		(pts
+			(xy 224.79 229.87) (xy 224.79 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e13a394-e1cd-4c6e-8072-065566365b0b")
+	)
+	(wire
+		(pts
+			(xy 177.8 90.17) (xy 186.69 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec1c9fc-6927-4da7-8293-95c3a65d9c44")
+	)
+	(wire
+		(pts
+			(xy 273.05 100.33) (xy 273.05 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed1c1a8-01fd-46a3-b7d7-6f48fa2bd98f")
+	)
+	(wire
+		(pts
+			(xy 214.63 62.23) (xy 224.79 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3db994-cbb8-43a9-99a8-2b8232beaa77")
+	)
+	(wire
+		(pts
+			(xy 284.48 77.47) (xy 284.48 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41922f5c-19b1-46e4-ac1d-2e0e2884fdd5")
+	)
+	(wire
+		(pts
+			(xy 179.07 110.49) (xy 179.07 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43315109-8cef-4742-842b-bceb8d4800d7")
+	)
+	(wire
+		(pts
+			(xy 167.64 74.93) (xy 167.64 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e6bfa3-f9e1-49f8-a457-b16f93eed2ea")
+	)
+	(wire
+		(pts
+			(xy 250.19 228.6) (xy 250.19 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44bb283e-a9f0-42f6-a165-3a741e5d2a31")
+	)
+	(wire
+		(pts
+			(xy 182.88 102.87) (xy 182.88 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c14e07-5426-4055-911c-50e65f13f9ba")
+	)
+	(wire
+		(pts
+			(xy 283.21 82.55) (xy 288.29 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45dd86ef-bebc-4803-9ffb-3df8c9105c67")
+	)
+	(wire
+		(pts
+			(xy 237.49 229.87) (xy 237.49 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ecc06e-6b24-4ef0-9b01-5ae77c2120b9")
+	)
+	(wire
+		(pts
+			(xy 283.21 87.63) (xy 292.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4630d1c1-5a7a-431f-a9c0-ae67f4c01dc7")
+	)
+	(wire
+		(pts
+			(xy 288.29 205.74) (xy 288.29 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463ef753-dcfc-4830-beab-8fbe2e222be5")
+	)
+	(wire
+		(pts
+			(xy 214.63 240.03) (xy 214.63 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472eac55-adc9-4393-8bdb-0c71b86a3022")
+	)
+	(wire
+		(pts
+			(xy 303.53 95.25) (xy 303.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4777dfb8-f3fb-40bb-b2c1-d397fa945ae0")
+	)
+	(wire
+		(pts
+			(xy 186.69 179.07) (xy 186.69 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ed286f-4503-41d0-8c30-6ed78af2a0db")
+	)
+	(wire
+		(pts
+			(xy 288.29 200.66) (xy 293.37 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b8fcca-719a-48fa-ba2f-f51658bec744")
+	)
+	(wire
+		(pts
+			(xy 198.12 74.93) (xy 198.12 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7de1e1-6528-4fb2-9e25-e8adea80ea92")
+	)
+	(wire
+		(pts
+			(xy 226.06 135.89) (xy 238.76 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b80373e-087b-41e3-b9c6-7ece55e50fbd")
+	)
+	(wire
+		(pts
+			(xy 232.41 228.6) (xy 232.41 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4caab33d-805c-447c-9b18-d3575881bf54")
+	)
+	(wire
+		(pts
+			(xy 284.48 107.95) (xy 293.37 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d72e5c8-2bcd-4731-804a-1bf3c26f4a01")
+	)
+	(wire
+		(pts
+			(xy 182.88 115.57) (xy 182.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecbcc00-9989-493e-94cf-f8c70f9cea7f")
+	)
+	(wire
+		(pts
+			(xy 237.49 46.99) (xy 237.49 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0edb37-d276-4401-8dad-86fb02c51c7a")
+	)
+	(wire
+		(pts
+			(xy 242.57 229.87) (xy 242.57 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1d0a31-6cd5-4e2b-b0fe-ff1fd8efbbf8")
+	)
+	(wire
+		(pts
+			(xy 292.1 118.11) (xy 292.1 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5165dfbe-0fe4-4e6f-bbef-55d1ed2177d5")
+	)
+	(wire
+		(pts
+			(xy 288.29 182.88) (xy 293.37 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544add0a-60b0-4237-8125-3e75a174c8b5")
+	)
+	(wire
+		(pts
+			(xy 293.37 118.11) (xy 292.1 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5466613c-f9f0-407a-b174-435dff61aa0c")
+	)
+	(wire
+		(pts
+			(xy 288.29 72.39) (xy 303.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54808bbd-2faa-47b7-9310-6f60427c6687")
+	)
+	(wire
+		(pts
+			(xy 187.96 191.77) (xy 186.69 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a3f6f7-875b-45c8-aa0b-2826192fde88")
+	)
+	(wire
+		(pts
+			(xy 224.79 62.23) (xy 242.57 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577fc6a7-d9af-4354-8baa-fa8fcadfb1cc")
+	)
+	(wire
+		(pts
+			(xy 214.63 135.89) (xy 215.9 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b6d164-cf93-467f-8477-83e5b1ac054e")
+	)
+	(wire
+		(pts
+			(xy 242.57 219.71) (xy 242.57 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f7801b-f7f6-4547-859a-4d258bc28108")
+	)
+	(wire
+		(pts
+			(xy 283.21 182.88) (xy 284.48 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5919cec8-e881-4372-8b05-c265d04b265b")
+	)
+	(wire
+		(pts
+			(xy 283.21 165.1) (xy 284.48 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "597d449f-25e0-4f0d-82d9-de4939020579")
+	)
+	(wire
+		(pts
+			(xy 179.07 110.49) (xy 187.96 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a2ca42b-2d86-481f-98bf-9edf39ae0e9b")
+	)
+	(wire
+		(pts
+			(xy 179.07 181.61) (xy 179.07 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d817777-4b27-4db7-855b-901b9d4e232b")
+	)
+	(wire
+		(pts
+			(xy 293.37 100.33) (xy 292.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd3c579-a60c-499e-8910-8965da379fe3")
+	)
+	(wire
+		(pts
+			(xy 186.69 209.55) (xy 186.69 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3c8735-d0eb-4905-8446-af81b4a980fe")
+	)
+	(wire
+		(pts
+			(xy 167.64 173.99) (xy 167.64 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee68468-7dac-487a-8256-5f16ed3765f3")
+	)
+	(wire
+		(pts
+			(xy 229.87 43.18) (xy 242.57 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6c2789-c3e6-4d66-8278-4a8bf117ca33")
+	)
+	(wire
+		(pts
+			(xy 237.49 52.07) (xy 237.49 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f8d0ad9-ad69-4d21-a93e-d97c5e6ea9e3")
+	)
+	(wire
+		(pts
+			(xy 242.57 224.79) (xy 255.27 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa7e24d-c085-4cab-97bc-9cfeeded163a")
+	)
+	(wire
+		(pts
+			(xy 186.69 191.77) (xy 186.69 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c24455-faec-48f7-a518-209065cd96f1")
+	)
+	(wire
+		(pts
+			(xy 232.41 50.8) (xy 232.41 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63501d13-02ad-45f9-9eb8-c1d8962705bd")
+	)
+	(wire
+		(pts
+			(xy 177.8 196.85) (xy 186.69 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63990828-cb5e-4f38-9fc1-3d7b39222eff")
+	)
+	(wire
+		(pts
+			(xy 288.29 118.11) (xy 288.29 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64014a15-526c-4a5b-a60c-56f0e86558a4")
+	)
+	(wire
+		(pts
+			(xy 288.29 170.18) (xy 288.29 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640cdf9d-8949-4b42-9aee-e50ac0a49117")
+	)
+	(wire
+		(pts
+			(xy 179.07 97.79) (xy 179.07 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659072c8-32fa-4c31-9e0c-3bc9aad2d1be")
+	)
+	(wire
+		(pts
+			(xy 177.8 97.79) (xy 179.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a3680f-59df-4271-9e2b-e2eb4d0a25ba")
+	)
+	(wire
+		(pts
+			(xy 182.88 209.55) (xy 182.88 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6855bdfb-b6ec-4a3e-a582-b7ff525b756f")
+	)
+	(wire
+		(pts
+			(xy 367.03 85.09) (xy 353.06 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a90dcc8-aae8-47a7-ba63-0acfd88f17ed")
+	)
+	(wire
+		(pts
+			(xy 186.69 196.85) (xy 186.69 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa8a0cb-12ae-468b-91e5-5797f8420018")
+	)
+	(wire
+		(pts
+			(xy 255.27 224.79) (xy 260.35 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716d49ce-f747-45c5-875b-c11c9c7f9aba")
+	)
+	(wire
+		(pts
+			(xy 292.1 100.33) (xy 292.1 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71df08c5-da0a-47a2-b4fd-58b11efbb830")
+	)
+	(wire
+		(pts
+			(xy 224.79 240.03) (xy 242.57 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72bdec1e-cd5d-44d1-a49f-1cc605c0c1f8")
+	)
+	(wire
+		(pts
+			(xy 233.68 139.7) (xy 233.68 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a4e336-55e1-4d89-8eb2-b73a8efdbe52")
+	)
+	(wire
+		(pts
+			(xy 284.48 90.17) (xy 293.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7508011b-5c7f-4eb2-a6bd-f869a67e20eb")
+	)
+	(wire
+		(pts
+			(xy 288.29 82.55) (xy 288.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757c6a1c-e5e1-4cac-b482-5e14e38e3bce")
+	)
+	(wire
+		(pts
+			(xy 198.12 163.83) (xy 198.12 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ea5993-cd94-430c-ab6c-d9ec194926a0")
+	)
+	(wire
+		(pts
+			(xy 283.21 123.19) (xy 292.1 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77117722-f926-48fe-bb73-0bbf97a65a17")
+	)
+	(wire
+		(pts
+			(xy 248.92 132.08) (xy 261.62 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7713eede-cba9-4f23-8b6f-a865244c7ce4")
+	)
+	(wire
+		(pts
+			(xy 213.36 224.79) (xy 214.63 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774e420f-f498-4ccf-8f45-52902e084ec3")
+	)
+	(wire
+		(pts
+			(xy 261.62 135.89) (xy 267.97 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779c3087-9e16-418b-9d71-3e64aab93023")
+	)
+	(wire
+		(pts
+			(xy 367.03 185.42) (xy 367.03 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b71000-c866-413a-9eae-38e8d7f1697e")
+	)
+	(wire
+		(pts
+			(xy 283.21 118.11) (xy 288.29 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7876ed6e-43a2-44eb-b88e-e707319ec82d")
+	)
+	(wire
+		(pts
+			(xy 303.53 182.88) (xy 303.53 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af45e35-4694-469f-b840-4768d9df8925")
+	)
+	(wire
+		(pts
+			(xy 242.57 220.98) (xy 247.65 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b336dde-914b-4680-9f02-adea1e8d782b")
+	)
+	(wire
+		(pts
+			(xy 213.36 46.99) (xy 214.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b774c66-97e4-490c-9416-39f78e1df70c")
+	)
+	(wire
+		(pts
+			(xy 167.64 191.77) (xy 167.64 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba7a3d2-2cb1-4e61-825b-7fc9534c0776")
+	)
+	(wire
+		(pts
+			(xy 256.54 140.97) (xy 256.54 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb3f0a6-afa1-4d22-9651-afb703fb6dd1")
+	)
+	(wire
+		(pts
+			(xy 229.87 52.07) (xy 229.87 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e45b881-3241-420d-96c0-de80af2eeee8")
+	)
+	(wire
+		(pts
+			(xy 288.29 200.66) (xy 288.29 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb18a0d-f9f1-4d42-9ac1-5edd2588f545")
+	)
+	(wire
+		(pts
+			(xy 233.68 139.7) (xy 238.76 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f81e803-24a9-4647-b5cc-c8160b55d1ee")
+	)
+	(wire
+		(pts
+			(xy 237.49 46.99) (xy 242.57 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80605137-d3b9-4080-9155-b3f7863c3c5a")
+	)
+	(wire
+		(pts
+			(xy 179.07 199.39) (xy 179.07 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82075b72-6842-427d-b099-bb0f9a6b7d99")
+	)
+	(wire
+		(pts
+			(xy 177.8 168.91) (xy 179.07 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "835a6b29-419c-48d1-af34-e7c5dbb25d0f")
+	)
+	(wire
+		(pts
+			(xy 198.12 97.79) (xy 198.12 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837b0ef5-0442-471c-bf4d-919dbe2a8eb8")
+	)
+	(wire
+		(pts
+			(xy 341.63 127) (xy 341.63 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83fad9b6-86af-431d-ab70-9f51351171d0")
+	)
+	(wire
+		(pts
+			(xy 255.27 228.6) (xy 266.7 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ee18cf-50ec-4682-9693-7b3c6dc91046")
+	)
+	(wire
+		(pts
+			(xy 284.48 195.58) (xy 284.48 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c8fe6e-cc0c-4d97-89d2-7f22ac5d4662")
+	)
+	(wire
+		(pts
+			(xy 341.63 90.17) (xy 341.63 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8833d99a-81c9-4ece-854a-d9f804debdf7")
+	)
+	(wire
+		(pts
+			(xy 167.64 102.87) (xy 167.64 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88ce51ae-cf73-4e8c-af52-8452b00524fe")
+	)
+	(wire
+		(pts
+			(xy 283.21 113.03) (xy 284.48 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a35ed2d-03ff-4ba7-8585-7c6a0c3f5dbb")
+	)
+	(wire
+		(pts
+			(xy 242.57 240.03) (xy 260.35 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be4ef70-17b6-48f4-9b76-49f595da7692")
+	)
+	(wire
+		(pts
+			(xy 284.48 182.88) (xy 284.48 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c23ba7e-8979-422c-9c0c-8cf1339d26a9")
+	)
+	(wire
+		(pts
+			(xy 187.96 102.87) (xy 186.69 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c92a0c5-6029-47a3-8d63-887bf2b9502e")
+	)
+	(wire
+		(pts
+			(xy 288.29 71.12) (xy 288.29 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91343882-ec15-479e-8e0d-36328c88484d")
+	)
+	(wire
+		(pts
+			(xy 292.1 175.26) (xy 292.1 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91647683-a999-41af-b329-09ecc8224514")
+	)
+	(wire
+		(pts
+			(xy 214.63 240.03) (xy 224.79 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95284fda-5e90-411f-83da-913f67ecf303")
+	)
+	(wire
+		(pts
+			(xy 179.07 199.39) (xy 187.96 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b735d5-8196-475f-9409-19d1c74592f6")
+	)
+	(wire
+		(pts
+			(xy 283.21 95.25) (xy 284.48 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e179f5-8a3c-4e76-a2bd-770575c5122a")
+	)
+	(wire
+		(pts
+			(xy 273.05 160.02) (xy 273.05 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "964db55e-854d-43ee-ab64-4313a4a0e4ac")
+	)
+	(wire
+		(pts
+			(xy 288.29 95.25) (xy 288.29 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96500a52-0673-4c0f-997d-24e936e8a844")
+	)
+	(wire
+		(pts
+			(xy 179.07 181.61) (xy 187.96 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a19ab6-758c-453c-9e86-72de5ec28dc4")
+	)
+	(wire
+		(pts
+			(xy 284.48 95.25) (xy 284.48 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a68b255-94d4-4ebb-a78d-d204e9ccd241")
+	)
+	(wire
+		(pts
+			(xy 232.41 228.6) (xy 237.49 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c081f81-b8bd-4350-b1a3-1a3707d96d71")
+	)
+	(wire
+		(pts
+			(xy 186.69 120.65) (xy 186.69 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9d0bc1-6274-45a5-bab6-d48b676879d9")
+	)
+	(wire
+		(pts
+			(xy 242.57 62.23) (xy 260.35 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9ec3db-d9fa-44c8-9265-965d8cfa1c14")
+	)
+	(wire
+		(pts
+			(xy 256.54 135.89) (xy 256.54 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f57acca-a5e2-4723-86a2-523e520a1b2d")
+	)
+	(wire
+		(pts
+			(xy 177.8 125.73) (xy 186.69 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ba6851-b9f1-4461-87b5-b62cafc2053c")
+	)
+	(wire
+		(pts
+			(xy 238.76 140.97) (xy 238.76 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a25bd771-6b5d-4148-9d83-f499a98d5bae")
+	)
+	(wire
+		(pts
+			(xy 361.95 160.02) (xy 361.95 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a09bab-3035-43ff-a5ab-95355403e232")
+	)
+	(wire
+		(pts
+			(xy 179.07 168.91) (xy 179.07 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a92b8fb9-3f7b-4a63-961f-b7255d3d11ed")
+	)
+	(wire
+		(pts
+			(xy 341.63 90.17) (xy 342.9 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c1b812-ad44-420a-93a4-007a4d24d6be")
+	)
+	(wire
+		(pts
+			(xy 288.29 187.96) (xy 288.29 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3c5c47-63be-498e-9ff9-9a9373020e39")
+	)
+	(wire
+		(pts
+			(xy 283.21 105.41) (xy 292.1 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae51e58-db92-42e3-a55e-f9654bbea275")
+	)
+	(wire
+		(pts
+			(xy 182.88 173.99) (xy 182.88 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab514028-7939-47ab-8f3f-4093102e5d92")
+	)
+	(wire
+		(pts
+			(xy 361.95 90.17) (xy 353.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac29859e-cdb5-4da8-bf31-293a171bb8cf")
+	)
+	(wire
+		(pts
+			(xy 288.29 160.02) (xy 303.53 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade0d584-43f4-49de-9493-1f5f7256f040")
+	)
+	(wire
+		(pts
+			(xy 214.63 31.75) (xy 237.49 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9117d5-9cf7-4f50-b0ce-58eccd021194")
+	)
+	(wire
+		(pts
+			(xy 273.05 72.39) (xy 273.05 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af17963d-5c72-411e-800f-775bd3bbb5b8")
+	)
+	(wire
+		(pts
+			(xy 288.29 113.03) (xy 288.29 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1858849-54fd-46bc-b487-21411d35b7a9")
+	)
+	(wire
+		(pts
+			(xy 182.88 162.56) (xy 182.88 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b46d4db0-1a30-4a8f-8ff8-1502cb79b7b9")
+	)
+	(wire
+		(pts
+			(xy 255.27 46.99) (xy 255.27 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f22e18-eacb-430d-af1e-71f6c71937fc")
+	)
+	(wire
+		(pts
+			(xy 251.46 139.7) (xy 251.46 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7948295-33f8-42c1-a6e2-1cda060f636d")
+	)
+	(wire
+		(pts
+			(xy 182.88 163.83) (xy 198.12 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b999e3a0-0755-456f-8861-428808205e47")
+	)
+	(wire
+		(pts
+			(xy 177.8 214.63) (xy 186.69 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e6d0bb-3a75-4406-ad66-10ce518bb4c3")
+	)
+	(wire
+		(pts
+			(xy 283.21 193.04) (xy 292.1 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8474f5-d653-4b2c-9bba-5cf4d8dd279c")
+	)
+	(wire
+		(pts
+			(xy 283.21 210.82) (xy 292.1 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "babc99c5-823b-44ae-8026-de14a7c64f8a")
+	)
+	(wire
+		(pts
+			(xy 266.7 140.97) (xy 266.7 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb3bc3ec-1e41-4716-ac68-1cdd4a912eb5")
+	)
+	(wire
+		(pts
+			(xy 283.21 77.47) (xy 284.48 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd00434-ce36-4595-ae51-25e6eb2e6f0d")
+	)
+	(wire
+		(pts
+			(xy 231.14 132.08) (xy 243.84 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf42899-9100-41bc-950a-2c9334c24292")
+	)
+	(wire
+		(pts
+			(xy 224.79 52.07) (xy 224.79 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc914dc2-c930-4fa7-ade1-5bb2579bc3b4")
+	)
+	(wire
+		(pts
+			(xy 224.79 46.99) (xy 237.49 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfeeb38f-a90b-4fa8-8c32-7bc34f64a765")
+	)
+	(wire
+		(pts
+			(xy 238.76 139.7) (xy 251.46 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c92071-934a-4e78-b222-3273d3e1f08a")
+	)
+	(wire
+		(pts
+			(xy 220.98 139.7) (xy 233.68 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0fcaca1-c5e0-40f7-9f86-cabda010f8a5")
+	)
+	(wire
+		(pts
+			(xy 179.07 115.57) (xy 179.07 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c14f48e6-ad91-400b-843e-be8708e926cd")
+	)
+	(wire
+		(pts
+			(xy 214.63 209.55) (xy 237.49 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c36fd39b-f5ab-41e1-8bd0-8e60f265fec8")
+	)
+	(wire
+		(pts
+			(xy 303.53 72.39) (xy 303.53 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b74561-4bdf-4770-a11f-1758cafed702")
+	)
+	(wire
+		(pts
+			(xy 177.8 80.01) (xy 179.07 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3fba8d9-92a7-4cfc-9b41-d1bdfb0fdd88")
+	)
+	(wire
+		(pts
+			(xy 283.21 175.26) (xy 292.1 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ff2856-71d3-477c-b52e-2042043e9f71")
+	)
+	(wire
+		(pts
+			(xy 182.88 204.47) (xy 182.88 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61269ef-7321-4928-b312-1b112378944e")
+	)
+	(wire
+		(pts
+			(xy 186.69 107.95) (xy 186.69 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6256952-e58d-4233-8a72-ef8ccebfb398")
+	)
+	(wire
+		(pts
+			(xy 255.27 50.8) (xy 266.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6790947-bbd9-436d-a729-0e01317001c5")
+	)
+	(wire
+		(pts
+			(xy 247.65 43.18) (xy 260.35 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6af2646-1b7b-452e-93a3-9fc34e2ac065")
+	)
+	(wire
+		(pts
+			(xy 177.8 191.77) (xy 182.88 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78062e1-3251-4770-9274-4c28b9352d24")
+	)
+	(wire
+		(pts
+			(xy 255.27 224.79) (xy 255.27 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7eac5a2-0358-45cb-a33e-efcf9e13a25f")
+	)
+	(wire
+		(pts
+			(xy 260.35 46.99) (xy 266.7 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c904dc71-f370-46f9-9409-d31a2422e834")
+	)
+	(wire
+		(pts
+			(xy 255.27 229.87) (xy 255.27 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa3d8bb-30c1-4a36-89c8-70dde6a474c7")
+	)
+	(wire
+		(pts
+			(xy 284.48 113.03) (xy 284.48 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5cbeab-571d-449a-8a2f-541471550b69")
+	)
+	(wire
+		(pts
+			(xy 284.48 200.66) (xy 284.48 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdef7a43-08bc-4938-8572-3f006ec8602c")
+	)
+	(wire
+		(pts
+			(xy 292.1 123.19) (xy 292.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1fd000-0103-4159-999e-97e8ef8855dd")
+	)
+	(wire
+		(pts
+			(xy 179.07 204.47) (xy 179.07 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4d2ccf-47dc-4ea4-af84-446eacc15c0b")
+	)
+	(wire
+		(pts
+			(xy 293.37 205.74) (xy 292.1 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4d3023-a70b-4d7f-9d6e-21828b47f823")
+	)
+	(wire
+		(pts
+			(xy 250.19 50.8) (xy 250.19 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf780310-43a2-4588-b446-2d274bc131d9")
+	)
+	(wire
+		(pts
+			(xy 243.84 140.97) (xy 243.84 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d02464da-7e79-490a-bd98-344489c6fd75")
+	)
+	(wire
+		(pts
+			(xy 219.71 228.6) (xy 232.41 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d239f81b-448d-4ee0-80a7-36eec43b8f9b")
+	)
+	(wire
+		(pts
+			(xy 260.35 224.79) (xy 266.7 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2823128-940e-4bb5-95db-38d3373871ee")
+	)
+	(wire
+		(pts
+			(xy 229.87 229.87) (xy 229.87 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d296217f-4144-4778-9ff4-6b23b168cf91")
+	)
+	(wire
+		(pts
+			(xy 242.57 46.99) (xy 255.27 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2fdf787-b120-4ba5-8bcf-26fc8c9006d5")
+	)
+	(wire
+		(pts
+			(xy 292.1 87.63) (xy 292.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3cc9769-6c3a-496f-b409-fc6e932e63d2")
+	)
+	(wire
+		(pts
+			(xy 182.88 97.79) (xy 187.96 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d406cb32-b76f-4540-ac53-026069d96cff")
+	)
+	(wire
+		(pts
+			(xy 177.8 179.07) (xy 186.69 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d437a5b8-7878-43d9-a7ab-4fc12eb5d688")
+	)
+	(wire
+		(pts
+			(xy 167.64 85.09) (xy 167.64 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5400836-b804-4da2-85bb-34021b0ec64a")
+	)
+	(wire
+		(pts
+			(xy 215.9 135.89) (xy 215.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b0f661-430a-455e-8e5e-d9c6f001947b")
+	)
+	(wire
+		(pts
+			(xy 182.88 191.77) (xy 182.88 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5dbf849-7992-4271-b51e-f77778117e67")
+	)
+	(wire
+		(pts
+			(xy 243.84 151.13) (xy 261.62 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6255fcb-5da5-4f0b-a732-2c7597369435")
+	)
+	(wire
+		(pts
+			(xy 284.48 177.8) (xy 284.48 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d651450d-cb52-4680-b59a-15c2e57594e8")
+	)
+	(wire
+		(pts
+			(xy 242.57 41.91) (xy 242.57 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d764cc01-2a42-4a5b-95e2-3fa372b4f881")
+	)
+	(wire
+		(pts
+			(xy 237.49 224.79) (xy 242.57 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d80e1212-074f-493e-8de9-1129c61f5aa2")
+	)
+	(wire
+		(pts
+			(xy 177.8 115.57) (xy 179.07 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d822e413-6412-4cac-a924-dceca38e95e5")
+	)
+	(wire
+		(pts
+			(xy 292.1 210.82) (xy 292.1 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8981885-e280-4440-ae7d-fc35143e9f35")
+	)
+	(wire
+		(pts
+			(xy 226.06 151.13) (xy 243.84 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a001a2-29f9-4ec4-b238-83b27f5aefd5")
+	)
+	(wire
+		(pts
+			(xy 177.8 209.55) (xy 182.88 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b750bc-bd65-412e-a132-922e627cac0d")
+	)
+	(wire
+		(pts
+			(xy 219.71 52.07) (xy 219.71 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c158cb-f0d7-4669-9c9b-fb77278f0498")
+	)
+	(wire
+		(pts
+			(xy 177.8 85.09) (xy 182.88 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ca10c8-4748-4a70-bad4-caa916dbdeed")
+	)
+	(wire
+		(pts
+			(xy 186.69 90.17) (xy 186.69 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da99fe18-818c-4ef0-a9cd-6a3f1a76cd11")
+	)
+	(wire
+		(pts
+			(xy 284.48 165.1) (xy 284.48 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc006fa3-c3c2-47de-823a-aa118c9818cc")
+	)
+	(wire
+		(pts
+			(xy 186.69 102.87) (xy 186.69 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc694827-c5bc-47b3-914c-0a5a695ae3d4")
+	)
+	(wire
+		(pts
+			(xy 182.88 74.93) (xy 198.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7b694c-5fa1-41d0-b79d-411b9ae14d55")
+	)
+	(wire
+		(pts
+			(xy 273.05 82.55) (xy 273.05 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b8577e-acb8-431c-8cfa-3c379cace461")
+	)
+	(wire
+		(pts
+			(xy 292.1 105.41) (xy 292.1 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c56c28-3eef-4ce7-9f57-86be07b81d58")
+	)
+	(wire
+		(pts
+			(xy 284.48 90.17) (xy 284.48 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d1ca5c-7f3f-4ba2-a1d2-0106e395f90c")
+	)
+	(wire
+		(pts
+			(xy 229.87 220.98) (xy 242.57 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22338d8-5bf0-4a88-8023-90fe798693c4")
+	)
+	(wire
+		(pts
+			(xy 247.65 52.07) (xy 247.65 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e391c57e-3548-4de8-9c02-b03118400d5c")
+	)
+	(wire
+		(pts
+			(xy 219.71 229.87) (xy 219.71 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4778273-43d5-4325-ac7e-6442352a008e")
+	)
+	(wire
+		(pts
+			(xy 214.63 46.99) (xy 214.63 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5fffea0-8c32-402f-b147-ceabb7c4f103")
+	)
+	(wire
+		(pts
+			(xy 242.57 52.07) (xy 242.57 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e654542b-60ec-4e1f-b661-185132d4640c")
+	)
+	(wire
+		(pts
+			(xy 292.1 187.96) (xy 292.1 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e73e577c-f0ae-4d20-a45c-a1996afc89e8")
+	)
+	(wire
+		(pts
+			(xy 261.62 140.97) (xy 261.62 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8e9d74e-b7b5-4486-882a-db7fee392a72")
+	)
+	(wire
+		(pts
+			(xy 341.63 160.02) (xy 342.9 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f0381e-e133-4945-b90c-5fd0471d4f4b")
+	)
+	(wire
+		(pts
+			(xy 177.8 173.99) (xy 182.88 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f57d28-187c-4d3c-9c1a-bf8af6b741d2")
+	)
+	(wire
+		(pts
+			(xy 283.21 200.66) (xy 284.48 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1ece20-fd4c-4829-9279-9e2e3b95b071")
+	)
+	(wire
+		(pts
+			(xy 237.49 209.55) (xy 255.27 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea382a5b-6ed9-4047-b294-92a8eadcf756")
+	)
+	(wire
+		(pts
+			(xy 182.88 186.69) (xy 182.88 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea4c33f0-2c9f-40c7-ac9e-f6bd30a755b2")
+	)
+	(wire
+		(pts
+			(xy 283.21 205.74) (xy 288.29 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea830007-5a69-48d2-8ecc-dc7be8bcfa86")
+	)
+	(wire
+		(pts
+			(xy 256.54 139.7) (xy 267.97 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb0eaa52-57f7-4467-a6cc-45cab4fcd41c")
+	)
+	(wire
+		(pts
+			(xy 238.76 135.89) (xy 243.84 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0f3922-60cf-43e8-bdf2-35bdf831b662")
+	)
+	(wire
+		(pts
+			(xy 251.46 139.7) (xy 256.54 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd4d990-13dc-46fe-83b2-c0c156d2b104")
+	)
+	(wire
+		(pts
+			(xy 182.88 73.66) (xy 182.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd721ac-d8d7-4d46-9635-7392165bc7f1")
+	)
+	(wire
+		(pts
+			(xy 182.88 120.65) (xy 182.88 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edee8408-2050-4632-80dc-1ec53a27ab99")
+	)
+	(wire
+		(pts
+			(xy 187.96 120.65) (xy 186.69 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeaa1cd5-b2e8-490a-95d3-36d860036675")
+	)
+	(wire
+		(pts
+			(xy 266.7 132.08) (xy 267.97 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee0f9d7-14ef-4ff4-8016-2dbfa2a9b14d")
+	)
+	(wire
+		(pts
+			(xy 283.21 187.96) (xy 288.29 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efbbc5a2-5270-4b2c-af80-1952a057b01e")
+	)
+	(wire
+		(pts
+			(xy 167.64 163.83) (xy 182.88 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04de76e-e77b-4420-b7c8-0fd6253cedf6")
+	)
+	(wire
+		(pts
+			(xy 215.9 151.13) (xy 215.9 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04fccaa-5e34-4f1d-b539-865c20293f91")
+	)
+	(wire
+		(pts
+			(xy 237.49 50.8) (xy 250.19 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06586e0-bf05-4bbf-8b74-9eb054954e70")
+	)
+	(wire
+		(pts
+			(xy 261.62 132.08) (xy 266.7 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d561e5-fb7d-4acd-aa3d-cf818d7a7f62")
+	)
+	(wire
+		(pts
+			(xy 367.03 154.94) (xy 367.03 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18e946a-550f-47ef-a292-2948763e6e0a")
+	)
+	(wire
+		(pts
+			(xy 361.95 90.17) (xy 361.95 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40aae3f-5c7d-4a6d-9440-54c1a7e281f5")
+	)
+	(wire
+		(pts
+			(xy 260.35 43.18) (xy 265.43 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c1b55a-bb90-43be-b841-ba036570b7cd")
+	)
+	(wire
+		(pts
+			(xy 177.8 107.95) (xy 186.69 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ff996b-b842-4513-936c-09cb8b64923f")
+	)
+	(wire
+		(pts
+			(xy 353.06 154.94) (xy 367.03 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f81ab770-8075-4779-adc7-24722777997c")
+	)
+	(wire
+		(pts
+			(xy 247.65 229.87) (xy 247.65 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f82d70ee-2f03-4f07-a744-add83230a59a")
+	)
+	(wire
+		(pts
+			(xy 237.49 31.75) (xy 255.27 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ffcf5c-8b6d-4368-803d-0ddae64f0709")
+	)
+	(wire
+		(pts
+			(xy 255.27 52.07) (xy 255.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9441812-c284-4dbe-a5b4-1f7b1ee3deef")
+	)
+	(wire
+		(pts
+			(xy 182.88 85.09) (xy 182.88 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa1a32f7-2af8-44c7-a631-a59e848f335d")
+	)
+	(wire
+		(pts
+			(xy 215.9 120.65) (xy 238.76 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6ee213-405c-44d8-9c68-27c2cb023b9e")
+	)
+	(wire
+		(pts
+			(xy 182.88 204.47) (xy 187.96 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbebda29-e7fd-429b-9bd2-61e6645b2acc")
+	)
+	(wire
+		(pts
+			(xy 187.96 209.55) (xy 186.69 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc437daa-ac79-4bc0-a5a9-e28c1bc68c35")
+	)
+	(wire
+		(pts
+			(xy 231.14 140.97) (xy 231.14 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd20e401-fad5-471d-99f6-4ef932f7c082")
+	)
+	(wire
+		(pts
+			(xy 356.87 95.25) (xy 356.87 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdab41d6-0879-4aa1-822d-45b5dbdca8bf")
+	)
+	(wire
+		(pts
+			(xy 226.06 140.97) (xy 226.06 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdfb01ca-69b3-47eb-9ce6-98db3bfad013")
+	)
+	(wire
+		(pts
+			(xy 179.07 186.69) (xy 179.07 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe243163-e434-47e8-a9c6-daa92ac6845f")
+	)
+	(wire
+		(pts
+			(xy 353.06 165.1) (xy 356.87 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe2921ec-00c1-4476-8b4f-ef575d71f6eb")
+	)
+	(wire
+		(pts
+			(xy 238.76 120.65) (xy 256.54 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5d095d-fcb3-4433-8b4b-452c0aec76bc")
+	)
+	(wire
+		(pts
+			(xy 175.26 36.83) (xy 173.99 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe85ef1e-f761-4c9f-afba-0ce2adab664c")
+	)
+	(wire
+		(pts
+			(xy 255.27 46.99) (xy 260.35 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4ccac5-fcd9-450d-a071-35554b0191d3")
+	)
+	(wire
+		(pts
+			(xy 243.84 132.08) (xy 248.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb6f1cd-73c9-4ee0-ac21-980fbe522f4a")
+	)
+	(wire
+		(pts
+			(xy 260.35 220.98) (xy 265.43 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fffe25cc-f275-49e9-a170-806ff41ba0e8")
+	)
+	(hierarchical_label "RED"
+		(shape input)
+		(at 284.48 212.09 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0758d84a-3942-469b-ae6a-8e177b82aeec")
+	)
+	(hierarchical_label "RED"
+		(shape input)
+		(at 179.07 127 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08b908b1-a3bc-4132-b798-00af592e05ce")
+	)
+	(hierarchical_label "GREEN"
+		(shape input)
+		(at 267.97 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c92b86c-8cbc-4a59-b8d3-12aa6f936ded")
+	)
+	(hierarchical_label "Segment_F"
+		(shape input)
+		(at 182.88 73.66 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12c39209-b0d2-4be0-adec-be35b9a0d2a7")
+	)
+	(hierarchical_label "RED"
+		(shape input)
+		(at 267.97 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "132ebd70-e6f3-4834-854e-bb486a19de57")
+	)
+	(hierarchical_label "RED"
+		(shape input)
+		(at 179.07 215.9 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "236d2963-9210-43fd-9e30-746279088d97")
+	)
+	(hierarchical_label "BLUE"
+		(shape input)
+		(at 266.7 224.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23dc1a32-5ad0-471d-b6e7-ff7112c06a60")
+	)
+	(hierarchical_label "GREEN"
+		(shape input)
+		(at 186.69 215.9 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "302e56aa-18da-47e4-bf50-3a2906ee1c10")
+	)
+	(hierarchical_label "RED"
+		(shape input)
+		(at 284.48 124.46 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "362fafae-3891-45df-ba94-1e3e82cabfb5")
+	)
+	(hierarchical_label "BLUE"
+		(shape input)
+		(at 288.29 212.09 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3693503e-8701-4976-b645-367afd4430c5")
+	)
+	(hierarchical_label "Segment_I"
+		(shape input)
+		(at 173.99 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b1d3145-4264-400a-81dc-e1a1b1cc1d57")
+	)
+	(hierarchical_label "GREEN"
+		(shape input)
+		(at 266.7 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45296674-4307-4e17-835a-bf63d82661e1")
+	)
+	(hierarchical_label "RED"
+		(shape input)
+		(at 266.7 228.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46ca41f4-f409-41f2-aced-eace50d31bb6")
+	)
+	(hierarchical_label "BLUE"
+		(shape input)
+		(at 185.42 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b158ac0-efb9-4f33-8a4f-a621d2fa6abe")
+	)
+	(hierarchical_label "BLUE"
+		(shape input)
+		(at 361.95 185.42 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4dd0b74a-292d-4561-a683-b0ca2356d465")
+	)
+	(hierarchical_label "Segment_C"
+		(shape input)
+		(at 288.29 158.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55702dea-7f98-448e-aaab-8d8862e0e07f")
+	)
+	(hierarchical_label "BLUE"
+		(shape input)
+		(at 182.88 215.9 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "565e0b74-cd06-4d5b-9158-4c335e69f0bb")
+	)
+	(hierarchical_label "GREEN"
+		(shape input)
+		(at 292.1 212.09 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "581fdec0-d873-4fbb-b732-0c1ef1f20d76")
+	)
+	(hierarchical_label "BLUE"
+		(shape input)
+		(at 182.88 127 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b2f009e-2f4a-4726-a5fe-3c211312e742")
+	)
+	(hierarchical_label "RED"
+		(shape input)
+		(at 266.7 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "607db41e-c80a-43f0-8a7a-e7d8be15f4c4")
+	)
+	(hierarchical_label "GREEN"
+		(shape input)
+		(at 266.7 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68c06f6b-3ac9-47b8-8024-d7d009e7b801")
+	)
+	(hierarchical_label "GREEN"
+		(shape input)
+		(at 356.87 185.42 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73e6bf19-cb34-40df-bfed-348f1fa59421")
+	)
+	(hierarchical_label "GREEN"
+		(shape input)
+		(at 292.1 124.46 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7bf98e56-d00a-4bdb-a5d0-8b83c8a6bcf0")
+	)
+	(hierarchical_label "GREEN"
+		(shape input)
+		(at 186.69 127 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c8cdd23-5e83-49bd-afe4-38caa81f10e0")
+	)
+	(hierarchical_label "GREEN"
+		(shape input)
+		(at 185.42 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92b0567d-0368-4bf6-bada-d4bc90080e21")
+	)
+	(hierarchical_label "Segment_B"
+		(shape input)
+		(at 288.29 71.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c427da7-000e-4f45-ac5e-34383685a3bb")
+	)
+	(hierarchical_label "RED"
+		(shape input)
+		(at 367.03 185.42 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f09331d-b309-4611-b198-506340679fb4")
+	)
+	(hierarchical_label "BLUE"
+		(shape input)
+		(at 267.97 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0a68ce3-d18c-45e8-a946-5c225606f7d6")
+	)
+	(hierarchical_label "Segment_H"
+		(shape input)
+		(at 336.55 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a63b090e-fa33-45ba-a541-016f8ac9d8d4")
+	)
+	(hierarchical_label "BLUE"
+		(shape input)
+		(at 288.29 124.46 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b92e8e63-0a8b-4c07-a4c8-c5125101303c")
+	)
+	(hierarchical_label "BLUE"
+		(shape input)
+		(at 266.7 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3325221-e128-4a4a-b037-5e2efd54e789")
+	)
+	(hierarchical_label "RED"
+		(shape input)
+		(at 185.42 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4892a61-75fd-48e8-8197-8658e2df684c")
+	)
+	(hierarchical_label "Segment_A"
+		(shape input)
+		(at 213.36 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc18d788-62f0-466a-b0b7-8950595fe0dd")
+	)
+	(hierarchical_label "Segment_G"
+		(shape input)
+		(at 214.63 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db2d3fce-ad34-437d-a71f-2117e48b8266")
+	)
+	(hierarchical_label "Segment_E"
+		(shape input)
+		(at 182.88 162.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed5ef8fd-86b6-4ffd-9576-59a0b920586a")
+	)
+	(hierarchical_label "Segment_D"
+		(shape input)
+		(at 213.36 224.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff26e55f-4464-493c-a7be-faa1c4189ca3")
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 172.72 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d4ee8bb-e78d-4145-91f3-86d0fa7eeda8")
+		(property "Reference" "D125"
+			(at 168.656 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 168.91 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 172.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 172.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 172.72 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0f619af-6cc6-41bf-8c93-6d3db15ab3bf")
+		)
+		(pin "2"
+			(uuid "a52381e0-c862-4d7f-8204-62178dd07554")
+		)
+		(pin "3"
+			(uuid "3236df06-90e6-496c-bb0f-a563a59fb77f")
+		)
+		(pin "4"
+			(uuid "9eca0480-d677-4fd1-9446-46663c98a5bd")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 347.98 160.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "101c9cef-7bca-4b09-b262-e807d1bd1315")
+		(property "Reference" "D26"
+			(at 344.424 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 344.17 164.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 347.98 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 347.98 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 347.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 347.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 347.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 347.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 347.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 347.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 347.98 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 347.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 347.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8f38b0c-3c56-49a6-a126-ecb185bf4fa7")
+		)
+		(pin "2"
+			(uuid "c7b60482-977c-430a-9829-1426b089470e")
+		)
+		(pin "3"
+			(uuid "71f8b9a8-423d-46a6-bb54-37b877b134e9")
+		)
+		(pin "4"
+			(uuid "717bb767-e3c1-4a7f-9d88-ad3acb27dea6")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 255.27 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13a2c28d-12a2-4c7e-b116-9d5a4c4334f8")
+		(property "Reference" "D139"
+			(at 249.936 32.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 259.842 32.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 256.54 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 256.54 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 255.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 255.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 255.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 255.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 255.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 255.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 255.27 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 255.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 255.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7638da77-b5f2-41e3-989f-ac77cd02b6cd")
+		)
+		(pin "2"
+			(uuid "298ee0d7-ca22-4275-accb-7fc441f5c910")
+		)
+		(pin "3"
+			(uuid "72157648-a2a5-41c2-afd2-3e007c712365")
+		)
+		(pin "4"
+			(uuid "06226934-7de2-48eb-b2f1-1d4672f27a54")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 172.72 209.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15012f8c-00de-4f24-b09f-2a322cc80715")
+		(property "Reference" "D132"
+			(at 168.91 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 168.91 214.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 172.72 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 172.72 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 172.72 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 172.72 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 172.72 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 172.72 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 172.72 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 172.72 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 172.72 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 172.72 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 172.72 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "683b6967-aaff-4b35-bec6-aff5cd288b43")
+		)
+		(pin "2"
+			(uuid "cb035527-2f4d-40e1-831d-266e540c103d")
+		)
+		(pin "3"
+			(uuid "a6f53cf1-476b-4478-a8bc-17f168632ff2")
+		)
+		(pin "4"
+			(uuid "6c9b273e-3796-4284-ab48-717520c8a876")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 278.13 205.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "161497eb-c997-41ef-a4a9-0bc21cbee696")
+		(property "Reference" "D152"
+			(at 274.32 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 274.32 210.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 278.13 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 278.13 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 278.13 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 278.13 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 278.13 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 278.13 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 278.13 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 278.13 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 278.13 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 278.13 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 278.13 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28324e89-3bd5-46b1-bb32-3d62ff228b7d")
+		)
+		(pin "2"
+			(uuid "61894439-e5a5-49d4-b36f-dc85e2d8993d")
+		)
+		(pin "3"
+			(uuid "0518124e-71c1-4bb0-be29-5bd78ef6d8a4")
+		)
+		(pin "4"
+			(uuid "264dae49-871a-4683-867f-e371790a357d")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 172.72 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ac394b4-9118-4143-9e40-0ef3479a2930")
+		(property "Reference" "D128"
+			(at 168.91 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 168.91 125.222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 172.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 172.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 172.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 172.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 172.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 172.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 172.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 172.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 172.72 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 172.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 172.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "683781ba-c230-4fd9-8dba-8bd6e319a632")
+		)
+		(pin "2"
+			(uuid "66853bef-9349-4e8f-aae2-211b8cc95447")
+		)
+		(pin "3"
+			(uuid "7d8d1ae0-2bc3-45e4-842b-30226e15f5c8")
+		)
+		(pin "4"
+			(uuid "e4491633-3eb0-46b7-b0bb-184c8727aaed")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 172.72 191.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2112964b-4444-4fe4-8f9e-c1a8f0769805")
+		(property "Reference" "D179"
+			(at 168.91 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 168.91 196.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 172.72 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 172.72 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 172.72 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 172.72 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 172.72 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 172.72 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 172.72 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 172.72 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 172.72 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 172.72 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 172.72 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a3e7a09-82d7-41f6-a1d2-2f6a46b89140")
+		)
+		(pin "2"
+			(uuid "9bc7a934-e002-47cf-a61d-d501a6aa5f06")
+		)
+		(pin "3"
+			(uuid "fae28984-c60b-41f2-bade-92c2a9f30ccd")
+		)
+		(pin "4"
+			(uuid "875829e7-006c-4320-986c-0f700f8ef600")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 180.34 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24d393b5-3208-4ef0-884f-7935ee75e677")
+		(property "Reference" "D20"
+			(at 176.784 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 176.53 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 180.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 180.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 180.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 180.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 180.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 180.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 180.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 180.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 180.34 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 180.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 180.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a67d937f-eee6-4e14-a0d1-51efe7f2519d")
+		)
+		(pin "2"
+			(uuid "287b4971-652c-442a-8885-31ccff475f8c")
+		)
+		(pin "3"
+			(uuid "aaa4af84-be27-4138-acd6-70ed5d7216e0")
+		)
+		(pin "4"
+			(uuid "3abb235d-246c-41a5-8574-d02f281591ad")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 224.79 234.95 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fe0a32c-0b26-4f3c-8857-921cc642628d")
+		(property "Reference" "D135"
+			(at 219.71 239.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 229.362 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 226.06 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 226.06 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 224.79 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 224.79 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 224.79 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 224.79 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 224.79 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 224.79 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 224.79 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 224.79 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 224.79 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "175724d3-767d-429d-980a-f6fb8ba8f021")
+		)
+		(pin "2"
+			(uuid "cf26fb8e-de15-4331-a085-8280c99f1994")
+		)
+		(pin "3"
+			(uuid "faf27f06-656b-4e3c-a37e-b69f167781de")
+		)
+		(pin "4"
+			(uuid "afb77201-36a5-4c80-9b0c-0e88916ab76a")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 256.54 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30ee26dc-a583-44fd-a5d2-89c631ede9ba")
+		(property "Reference" "D140"
+			(at 251.206 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 261.112 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 257.81 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 257.81 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 256.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 256.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 256.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 256.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 256.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 256.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 256.54 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 256.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 256.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b150735-bb90-418f-b3e7-92d0f0319221")
+		)
+		(pin "2"
+			(uuid "b51307cc-8626-4a4a-8c64-d4bb211b84ae")
+		)
+		(pin "3"
+			(uuid "bc63a712-b40f-4629-aca2-afc1f1f00f29")
+		)
+		(pin "4"
+			(uuid "b9650ad5-9a61-4adf-98ab-7b53f24bec08")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 193.04 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "320c0373-0c9b-4e58-8c92-be0b26f7f975")
+		(property "Reference" "D130"
+			(at 197.104 181.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 197.104 191.262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 193.04 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 193.04 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 193.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 193.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 193.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 193.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 193.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 193.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 193.04 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 193.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 193.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99e8bf11-98e0-4ad8-aebe-c89bdc79c050")
+		)
+		(pin "2"
+			(uuid "a5c2a471-c053-4c87-983c-98dcc2f84362")
+		)
+		(pin "3"
+			(uuid "6c86c3cf-e0a5-4200-8d5e-84b70d91e9a1")
+		)
+		(pin "4"
+			(uuid "52b1f509-9d0a-4937-8d5f-4845761bbdb4")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 237.49 214.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c40d280-b093-4aaa-9892-45e6608846a1")
+		(property "Reference" "D138"
+			(at 232.664 210.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 242.062 210.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 238.76 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 238.76 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 237.49 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 237.49 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 237.49 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 237.49 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 237.49 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 237.49 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 237.49 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 237.49 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 237.49 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb710646-390d-49ea-adfe-a8daa16dcbae")
+		)
+		(pin "2"
+			(uuid "7ef8ad23-dc35-403f-b562-78f3398d3d7f")
+		)
+		(pin "3"
+			(uuid "91ca885b-3418-4d34-8286-29c4caf9f56d")
+		)
+		(pin "4"
+			(uuid "2e224089-a66a-4423-8ca4-bd9f5e92c2c3")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 298.45 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "427a9d88-25fd-4254-a187-524488a49717")
+		(property "Reference" "D147"
+			(at 302.514 107.696 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 302.514 117.602 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 298.45 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 298.45 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 298.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 298.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 298.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 298.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 298.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 298.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 298.45 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 298.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 298.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "015dce8b-e995-4042-b74e-09947ad60786")
+		)
+		(pin "2"
+			(uuid "82d536f9-e03f-45b4-b285-6f63bb529622")
+		)
+		(pin "3"
+			(uuid "b2628ed3-372d-42e6-aed6-77ca147b41db")
+		)
+		(pin "4"
+			(uuid "85c0659a-65ba-4ffd-96ba-ed5996b2757d")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 260.35 234.95 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43417ca1-236c-4c2d-902a-486d41d8bed1")
+		(property "Reference" "D144"
+			(at 255.27 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 264.922 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 261.62 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 261.62 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 260.35 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 260.35 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 260.35 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 260.35 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 260.35 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 260.35 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 260.35 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 260.35 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 260.35 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5c88345-d002-42a0-8e27-fe8fc91d7c25")
+		)
+		(pin "2"
+			(uuid "cd3df255-c2c8-445f-a276-f562061f9f95")
+		)
+		(pin "3"
+			(uuid "7ebc40a6-1c01-4ce2-b39f-122e0dd9e242")
+		)
+		(pin "4"
+			(uuid "219510ba-0c65-4371-9d7e-99d948c02d46")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 193.04 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5119b86a-1ea8-4f30-abb3-3a3c70b75e9c")
+		(property "Reference" "D126"
+			(at 197.104 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 197.104 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 193.04 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c14bab5a-4be6-46b0-98ad-24a76f0920eb")
+		)
+		(pin "2"
+			(uuid "3bd8557d-b458-40d7-875b-200eee4ab214")
+		)
+		(pin "3"
+			(uuid "3f038864-3d51-499b-adea-81c6e4c8624d")
+		)
+		(pin "4"
+			(uuid "f840c621-68f0-4055-8fc2-27e37e37ab4a")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 278.13 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51ad5fed-993b-41bd-8df2-36ee548e233b")
+		(property "Reference" "D148"
+			(at 274.32 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 274.32 122.682 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 278.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 278.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 278.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 278.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 278.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 278.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 278.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 278.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 278.13 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 278.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 278.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5423853-1177-49f3-a370-6e3459b71a28")
+		)
+		(pin "2"
+			(uuid "68afb826-544f-4ef7-8461-d1c010136886")
+		)
+		(pin "3"
+			(uuid "957b43bb-9b47-4475-b0f5-35a0dbef870b")
+		)
+		(pin "4"
+			(uuid "0ba5d556-7c9d-4fb0-82e3-57bd8ea00dae")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 278.13 170.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52545e7c-f0f7-4856-a906-31f8b44b6528")
+		(property "Reference" "D149"
+			(at 274.066 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 274.32 174.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 278.13 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 278.13 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 278.13 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 278.13 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 278.13 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 278.13 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 278.13 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 278.13 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 278.13 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 278.13 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 278.13 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a266cc7c-3258-4a6c-812b-15ac4f9dfa5c")
+		)
+		(pin "2"
+			(uuid "7a7663c5-6cc1-43d6-a229-0e649e59172d")
+		)
+		(pin "3"
+			(uuid "7a5c9304-0830-4510-899e-fe1afff15c08")
+		)
+		(pin "4"
+			(uuid "fd09d6a4-6f77-4318-831a-dc8a49baf646")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 278.13 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57571cc9-81b8-4206-82eb-f46f44eba450")
+		(property "Reference" "D145"
+			(at 274.066 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 274.32 87.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 278.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 278.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 278.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 278.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 278.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 278.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 278.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 278.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 278.13 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 278.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 278.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fb58890-d4dc-46fb-b38d-684f29ad511a")
+		)
+		(pin "2"
+			(uuid "ab3e57ea-535f-419d-8584-c6dd5b1d6291")
+		)
+		(pin "3"
+			(uuid "b6915422-d36f-43d6-af99-16ba369e4792")
+		)
+		(pin "4"
+			(uuid "ee12eeaf-4854-45fb-a703-3583be6005d7")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 237.49 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58077db9-3c99-44b0-8b2c-85758afc427f")
+		(property "Reference" "D136"
+			(at 232.664 32.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 242.062 32.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 238.76 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 238.76 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 237.49 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "762c6623-dc9a-4264-8331-8e060098733e")
+		)
+		(pin "2"
+			(uuid "2b0145c0-3e37-4b3e-a6db-5ec39dca4ad2")
+		)
+		(pin "3"
+			(uuid "cac5cc18-fd7e-4ae7-bcb4-49072fad8380")
+		)
+		(pin "4"
+			(uuid "7813dcfe-65f1-4558-af0f-54a2c354f694")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 278.13 187.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a2e57a5-2915-4c9a-b5a6-1ad4e3becac4")
+		(property "Reference" "D184"
+			(at 274.32 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 274.32 192.532 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 278.13 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 278.13 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 278.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 278.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 278.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 278.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 278.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 278.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 278.13 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 278.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 278.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56ba5df4-488b-4647-9e7c-bb9a8528c8df")
+		)
+		(pin "2"
+			(uuid "943a3686-d5b9-4fcb-a728-1921e4a06d2b")
+		)
+		(pin "3"
+			(uuid "4976bd16-4493-424e-af06-6d703e9e036b")
+		)
+		(pin "4"
+			(uuid "5d3c2094-73d6-4b1b-b564-dd45c8346466")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 242.57 234.95 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b189895-3c39-458f-9cef-38f2b583e45c")
+		(property "Reference" "D182"
+			(at 237.49 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 247.142 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 243.84 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 243.84 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 242.57 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 242.57 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 242.57 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 242.57 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 242.57 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 242.57 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 242.57 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 242.57 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 242.57 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05178ccd-acf7-4365-aac7-2be4f2b07001")
+		)
+		(pin "2"
+			(uuid "8abe14f5-33e1-426f-8ac6-3689dfd351aa")
+		)
+		(pin "3"
+			(uuid "3a33d926-28b7-436f-80d8-4fdae4989046")
+		)
+		(pin "4"
+			(uuid "5b0bb7a5-c870-42f5-b625-9179327d527d")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 260.35 57.15 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ecea07b-3f8f-400b-8b5a-9f4bd3f82001")
+		(property "Reference" "D142"
+			(at 255.27 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 264.922 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 261.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 261.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 260.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 260.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 260.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 260.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 260.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 260.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 260.35 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 260.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 260.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f161f9fb-73e1-4663-885f-b4775e9166cb")
+		)
+		(pin "2"
+			(uuid "cb4f03c0-93c7-4209-8967-0339f058731c")
+		)
+		(pin "3"
+			(uuid "339e62d7-746e-47d4-bb25-72968fbdd472")
+		)
+		(pin "4"
+			(uuid "67f3f6f0-9d5f-40ec-b960-b7de13a10034")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 298.45 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8db2391-b6e7-4606-a676-2c651e7a6f0c")
+		(property "Reference" "D146"
+			(at 302.514 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 302.514 99.822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 298.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 298.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 298.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 298.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 298.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 298.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 298.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 298.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 298.45 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 298.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 298.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1211399d-b857-4c54-a7aa-32c6f58f6d11")
+		)
+		(pin "2"
+			(uuid "aeea4313-6b87-4249-b9aa-6fd8760b5999")
+		)
+		(pin "3"
+			(uuid "a9ce53cf-49df-4037-bf66-2a1d039f469d")
+		)
+		(pin "4"
+			(uuid "7833cb7e-554e-4bb2-842e-d5acdec7bb1f")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 172.72 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b38c9af5-7ca3-412f-8779-ee44a7b3c435")
+		(property "Reference" "D178"
+			(at 168.91 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 168.91 107.442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 172.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 172.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 172.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 172.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 172.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 172.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 172.72 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 172.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 172.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f48d7de7-008f-43e5-a51f-3e09909673ef")
+		)
+		(pin "2"
+			(uuid "55cedfe0-869a-4a40-af49-e21b8a62d591")
+		)
+		(pin "3"
+			(uuid "5e301aa6-a78a-4884-904f-419b410fbe8f")
+		)
+		(pin "4"
+			(uuid "f5bf12cf-f917-48be-b95b-2614c97e77d6")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 255.27 214.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3c47c15-ebed-4f64-a7c0-493b65a78a49")
+		(property "Reference" "D141"
+			(at 249.936 210.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 259.842 210.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 256.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 256.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 255.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 255.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 255.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 255.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 255.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 255.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 255.27 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 255.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 255.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d72fc694-e061-4ea4-ad86-6fdaac9f715e")
+		)
+		(pin "2"
+			(uuid "d0e01434-de91-4cee-bafb-a1489cd040d4")
+		)
+		(pin "3"
+			(uuid "f421877a-6ed5-42de-a880-6d6a6ba98928")
+		)
+		(pin "4"
+			(uuid "d0b8618b-232a-424f-ac8c-7df05902f364")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 226.06 146.05 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bceca196-5950-4676-8f0b-78f88e3fd70e")
+		(property "Reference" "D134"
+			(at 220.98 150.114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 230.632 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 227.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 227.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 226.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 226.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 226.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 226.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 226.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 226.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 226.06 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 226.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 226.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad8462a1-8a98-44cf-93a0-a5db31fe2a79")
+		)
+		(pin "2"
+			(uuid "913c131a-9c31-46e2-a086-9ce2645361b7")
+		)
+		(pin "3"
+			(uuid "26344efe-6c63-4898-a343-dd8d3e08c597")
+		)
+		(pin "4"
+			(uuid "ed4b2f37-137b-4da5-b83b-98c166e3d8c2")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 243.84 146.05 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4e64632-859d-426e-a08c-16a244c55170")
+		(property "Reference" "D181"
+			(at 238.76 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 248.412 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 245.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 245.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 243.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 243.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 243.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 243.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 243.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 243.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 243.84 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 243.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 243.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e0bb443-855a-4b77-b9af-ea54ad94c100")
+		)
+		(pin "2"
+			(uuid "6e32243d-f782-4f70-b7bd-38a05b373421")
+		)
+		(pin "3"
+			(uuid "e67884d2-0496-4e74-b2af-23bf1b74b915")
+		)
+		(pin "4"
+			(uuid "f32b42b2-935f-49cd-967a-077ee8f7ee52")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D181")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 261.62 146.05 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf03cf12-58c8-4858-b823-e76011dc656b")
+		(property "Reference" "D143"
+			(at 256.54 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 266.192 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 262.89 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 262.89 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 261.62 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78ab6fe6-42f6-40ba-be73-135600ae1a3b")
+		)
+		(pin "2"
+			(uuid "053a84b2-147f-41b1-98fc-181a5f1a00c7")
+		)
+		(pin "3"
+			(uuid "d70b8770-929d-44d0-8f94-4d0e959ada89")
+		)
+		(pin "4"
+			(uuid "268c78c2-5468-4beb-a327-a8085d211cf1")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 172.72 173.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d037635f-1544-4615-a0fc-5386c7ff68a8")
+		(property "Reference" "D129"
+			(at 168.656 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 168.91 178.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 172.72 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 172.72 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 172.72 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 172.72 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 172.72 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 172.72 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 172.72 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 172.72 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 172.72 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 172.72 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 172.72 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e56cec4-df62-45fd-a50d-d90eb7e02f11")
+		)
+		(pin "2"
+			(uuid "fd967cde-4598-4d21-8444-515d29497640")
+		)
+		(pin "3"
+			(uuid "141bf30a-377e-4c91-bd42-66b15204236e")
+		)
+		(pin "4"
+			(uuid "deedf5c3-ff82-4b7c-b382-1bdd0dd92544")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 238.76 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0fdcb7a-eaea-47ed-ba1e-c16197ae4db7")
+		(property "Reference" "D137"
+			(at 233.934 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 243.332 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 240.03 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 240.03 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 238.76 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90f432fd-76ad-496e-9584-b0585d2aebf6")
+		)
+		(pin "2"
+			(uuid "a2726708-9049-4d27-b386-14b393e9253e")
+		)
+		(pin "3"
+			(uuid "c0c35d2f-6500-4904-bc0d-9bd7e7862e9a")
+		)
+		(pin "4"
+			(uuid "a7ccc6b8-680e-48cd-a9b0-6b122e27872b")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 242.57 57.15 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4f22752-b812-4de5-aad7-1d7ce6912882")
+		(property "Reference" "D180"
+			(at 237.49 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 247.142 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 243.84 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 243.84 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 242.57 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a2039d7-ab9f-47a1-9be8-cbbc13106c10")
+		)
+		(pin "2"
+			(uuid "ed260e01-4fff-4410-8753-dbe65d66a296")
+		)
+		(pin "3"
+			(uuid "45f3edaf-1c93-4bed-8841-8b13188b5060")
+		)
+		(pin "4"
+			(uuid "81f0efe7-316b-4e7a-a5bd-61deb339057f")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D180")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 224.79 57.15 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de3dbc35-2a9a-407a-a10b-66ccd73b4c0c")
+		(property "Reference" "D133"
+			(at 219.71 61.214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 229.362 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 226.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 226.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 224.79 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05810a89-ea3d-486b-97f7-c84db6c5931e")
+		)
+		(pin "2"
+			(uuid "c38f0d44-1924-4d64-9b1c-ac2a18e4c970")
+		)
+		(pin "3"
+			(uuid "9d125c4a-90cd-4e9b-8c30-69ff0f823ea7")
+		)
+		(pin "4"
+			(uuid "67674499-a1d3-4205-9c44-fe81ff631a5c")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 298.45 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de80a839-f2a3-4371-97ea-db9931718e6b")
+		(property "Reference" "D150"
+			(at 302.514 178.054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 302.514 187.452 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 298.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 298.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 298.45 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 298.45 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 298.45 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 298.45 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 298.45 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 298.45 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 298.45 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 298.45 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 298.45 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0897a74c-a77a-45c4-b793-4c04cc75a99c")
+		)
+		(pin "2"
+			(uuid "73a96246-fe29-40e0-b294-53dc6cfdd0fa")
+		)
+		(pin "3"
+			(uuid "1ec4f759-0483-4223-8de7-6dca789fb9e1")
+		)
+		(pin "4"
+			(uuid "64c72b56-062d-4e48-9a43-7541c888aa8a")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 278.13 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df565216-d747-4c8c-9f63-88947e2e3c4b")
+		(property "Reference" "D183"
+			(at 274.32 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 274.32 104.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 278.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 278.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 278.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 278.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 278.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 278.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 278.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 278.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 278.13 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 278.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 278.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2cb7594-c958-4003-b137-2cc2ce4df00c")
+		)
+		(pin "2"
+			(uuid "76242ea9-d23d-495b-aade-fae3b71cfe4d")
+		)
+		(pin "3"
+			(uuid "a3a6dfac-8c65-4675-a275-12f1930b3733")
+		)
+		(pin "4"
+			(uuid "0f63442e-6982-442d-bbaf-75b103304641")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D183")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 347.98 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e662f7bc-6412-40fd-ae2f-be784e76958e")
+		(property "Reference" "D21"
+			(at 344.424 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 344.17 94.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 347.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 347.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 347.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 347.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 347.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 347.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 347.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 347.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 347.98 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 347.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 347.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e1a1b88-8dd8-432e-aa40-d81b93d8d60f")
+		)
+		(pin "2"
+			(uuid "264491ed-0e90-4bbc-9b0b-c28651f96fac")
+		)
+		(pin "3"
+			(uuid "cc07b42a-04e6-4505-ae87-bea64180a7fb")
+		)
+		(pin "4"
+			(uuid "7246f075-8c1e-4869-a27e-9b69ab3961a9")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 298.45 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4daf3f3-6f0d-49e4-99cd-6233662fb73f")
+		(property "Reference" "D151"
+			(at 302.514 195.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 302.514 205.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 298.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 298.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 298.45 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 298.45 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 298.45 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 298.45 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 298.45 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 298.45 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 298.45 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 298.45 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 298.45 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6dc4b1f-ed28-42ff-96bd-048fbc176cef")
+		)
+		(pin "2"
+			(uuid "a8b7eb7c-2c07-4c1a-a191-d7133f007323")
+		)
+		(pin "3"
+			(uuid "0a90f3e7-475a-482d-9494-a8b06c0a6f6a")
+		)
+		(pin "4"
+			(uuid "6c19a1b8-140b-417b-89df-65fd737f5746")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 193.04 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5c6ade8-1b7e-4159-b5b5-f48b759602e0")
+		(property "Reference" "D127"
+			(at 197.104 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 197.104 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 193.04 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63fe43d6-a52d-4433-96c9-183a7beb835a")
+		)
+		(pin "2"
+			(uuid "babcdbc9-ffa4-43f3-a282-f64d3e5aadf7")
+		)
+		(pin "3"
+			(uuid "021845ee-5210-4484-9400-7d154a7fcef0")
+		)
+		(pin "4"
+			(uuid "9931456d-e0ae-4065-9601-06c60bc09db0")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Symbols:LED_RGAB")
+		(at 193.04 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9c3e45b-32de-4a37-a323-6d7979e81f4a")
+		(property "Reference" "D131"
+			(at 197.104 199.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGAB"
+			(at 197.104 209.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Footprints:RGB_LED_NH-B2020RGBA-HF"
+			(at 193.04 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108150330_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.pdf"
+			(at 193.04 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/anode/blue"
+			(at 193.04 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Website" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NH-B2020RGBA-HF_C2874116.html"
+			(at 193.04 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 193.04 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ".0081"
+			(at 193.04 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NH-B2020RGBA-HF"
+			(at 193.04 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED RGAB 2020"
+			(at 193.04 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 193.04 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SMD"
+			(at 193.04 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2874116"
+			(at 193.04 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eae0e43c-b4e4-43e2-8e38-4e1b5af878f4")
+		)
+		(pin "2"
+			(uuid "d60ec09b-6644-43ee-a06b-e2567dba7a2c")
+		)
+		(pin "3"
+			(uuid "31acdaf4-8101-43e5-91e3-7f28105a96c4")
+		)
+		(pin "4"
+			(uuid "1179c185-aca7-4199-bdcd-702de2152b6e")
+		)
+		(instances
+			(project "Scoreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8138e127-d436-45db-a53b-f98bfe775ffd"
+					(reference "D131")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
