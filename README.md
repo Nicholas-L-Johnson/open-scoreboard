@@ -19,8 +19,10 @@ It really is small enough to fit in a pocket, and the battery lasts for up to 2 
 ![alt text](Media/IMG_20250811_022754742_AE.jpg)
 
 
+It has some other modes too, a countdown timer and alarm clock
+![alt text](Media/IMG_20250811_022859322_AE.jpg)
 
-This project may be slightly doomed.  It will take about 35K to get the certifications, testing, and llc up to the level where these can be sold.  The real killer is the fee to use bluetooth.
+This project may be slightly doomed.  It will take about 35K to get the certifications, testing, and llc up to the level where these can be sold.  The real killer is the massive fee to use bluetooth.
 
 I could seek a loan, but I am pretty against that at this point.  The app is not nearly ready, and it definitly needs to be migrated to a 4 layer board if I want to pass FCC testing.
 
